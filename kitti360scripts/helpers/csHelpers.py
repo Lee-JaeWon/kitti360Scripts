@@ -15,12 +15,12 @@ import traceback
 
 # Image processing
 # Check if PIL is actually Pillow as expected
-try:
-    from PIL import PILLOW_VERSION
-except:
-    print("Please install the module 'Pillow' for image processing, e.g.")
-    print("pip install pillow")
-    sys.exit(-1)
+# try:
+#     from PIL import PILLOW_VERSION
+# except:
+#     print("Please install the module 'Pillow' for image processing, e.g.")
+#     print("pip install pillow")
+#     sys.exit(-1)
 
 try:
     import PIL.Image     as Image
