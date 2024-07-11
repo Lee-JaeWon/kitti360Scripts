@@ -17,6 +17,12 @@ Dataset structure and data formats are available at: www.cvlibs.net/datasets/kit
 ```
 python setup.py install
 ```
+```
+# In ~/.bashrc
+export PYTHONPATH=$PYTHONPATH:/root/workspace/src/submodules/kitti360Scripts
+export PYTHONPATH=$PYTHONPATH:/root/workspace/src/submodules/kitti360Scripts/kitti360scripts/helpers
+export KITTI360_DATASET=/root/workspace/src/dataset/KITTI-360
+```
 
 ### Installation
 
