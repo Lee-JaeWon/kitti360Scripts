@@ -10,6 +10,14 @@ Dataset structure and data formats are available at: www.cvlibs.net/datasets/kit
 
 ## Scripts
 
+### Installation from source code
+```
+ CYTHONIZE_EVAL=1 python setup.py build_ext --inplace
+```
+```
+python setup.py install
+```
+
 ### Installation
 
 Install `kitti360Scripts` with `pip`
